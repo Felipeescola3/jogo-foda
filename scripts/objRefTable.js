@@ -14,7 +14,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.Destroy,
 		C3.Plugins.System.Acts.AddVar,
 		C3.Plugins.System.Acts.RestartLayout,
-		C3.Plugins.System.Acts.SetVar
+		C3.Plugins.System.Acts.SetVar,
+		C3.Plugins.System.Cnds.Compare,
+		C3.Behaviors.solid.Acts.SetEnabled
 	];
 };
 self.C3_JsPropNameTable = [
